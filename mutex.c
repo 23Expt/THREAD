@@ -22,7 +22,9 @@ void critical_section() {
 
 int main() {
     acquire_lock();
+
     critical_section();
+
     release_lock();
 
     return 0;
